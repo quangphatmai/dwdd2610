@@ -1,0 +1,86 @@
+/* Prevent adjustments of font size after orientation changes.  */
+html {
+  -moz-text-size-adjust: none;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
+  height: 100%;
+}
+
+/*---- apply a natural box layout model to all elements -------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100%;
+  font-family: $fontPrimary;
+  font-size: $baseFontSize;
+  font-weight: $regularWeight;
+  color: $fontColor;
+}
+
+// Header styles
+#header-container {
+  background-color: $primaryColor;
+  color: white;
+  header {
+    display: flex;
+    align-items: center;
+    padding: $gutter;
+    gap: 8px;
+    h1 {
+      margin: 0;
+      font-size: 1.5rem;
+      font-weight: $boldWeight;
+    }
+  }
+}
+
+// Navigation styles
+#nav-container {
+  width: 100%;
+  background-color: $secondaryColor;
+}
+
+#nav-container nav {
+  background-color: $secondaryColor;
+  ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    li {
+      flex: 1;
+    }
+  }
+
+  li.active {
+    background-color: darken($secondaryColor, 8%);
+  }
+
+  a {
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    text-align: center;
+    &:hover {
+      color: #333;
+    }
+  }
+}
+
+#footer-container {
+  background-color: $primaryColor;
+  footer {
+    color: white;
+    text-align: center;
+    padding: $gutter;
+    p {
+      margin: 0;
+      font-weight: $lightWeight;
+    }
+  }
+}
