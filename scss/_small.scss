@@ -57,7 +57,7 @@ body {
   }
 
   li.active {
-    background-color: darken($secondaryColor, 8%);
+    background-color: #0b3d2e;
   }
 
   a {
@@ -80,7 +80,7 @@ body {
     padding: $gutter;
     p {
       margin: 0;
-      font-weight: $lightWeight;
+      font-weight: $regularWeight;
     }
   }
 }

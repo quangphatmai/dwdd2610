@@ -334,7 +334,7 @@ body {
 }
 
 #header-container {
-  background-color: #3498db;
+  background-color: #1f618d;
   color: white;
 }
 #header-container header {
@@ -351,11 +351,11 @@ body {
 
 #nav-container {
   width: 100%;
-  background-color: #2ecc71;
+  background-color: #1e8449;
 }
 
 #nav-container nav {
-  background-color: #2ecc71;
+  background-color: #1e8449;
 }
 #nav-container nav ul {
   padding: 0;
@@ -367,7 +367,7 @@ body {
   flex: 1;
 }
 #nav-container nav li.active {
-  background-color: rgb(38.4928, 170.7072, 94.5584);
+  background-color: #0b3d2e;
 }
 #nav-container nav a {
   padding: 12px;
@@ -381,7 +381,7 @@ body {
 }
 
 #footer-container {
-  background-color: #3498db;
+  background-color: #1f618d;
 }
 #footer-container footer {
   color: white;
@@ -390,7 +390,7 @@ body {
 }
 #footer-container footer p {
   margin: 0;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 @media only screen and (min-width: 35rem) {
